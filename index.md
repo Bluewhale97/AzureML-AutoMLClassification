@@ -225,6 +225,9 @@ except urllib.error.HTTPError as error:
     print(error.info())
     print(json.loads(error.read().decode("utf8", 'ignore')))
 ```
+See the prediction:
+
+![image](https://user-images.githubusercontent.com/71245576/115636485-0c6e6b80-a2dc-11eb-92a5-75bb9a29bf98.png)
 
 ## Reference
 
